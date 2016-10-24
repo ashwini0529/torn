@@ -1,5 +1,4 @@
-import os
-from colors import bcolors
+from modules import *
 class createNewController():
 	NAME = ''
 	CURRENT_DIR = os.getcwd()

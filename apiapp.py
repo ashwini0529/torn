@@ -38,9 +38,7 @@ Directory structure
  |-server.go
 """
 
-import os
-from colors import bcolors
-
+from modules import *
 """
 The Controller to create a new app
 """

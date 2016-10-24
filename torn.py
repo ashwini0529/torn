@@ -17,11 +17,10 @@
 
 import sys
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
-from colors import bcolors
 from newapp import NewController
 from apiapp import APIController
 from createController import createNewController
-import os
+from modules import *
 
 #Check whether Tornado is installed or not
 try:
